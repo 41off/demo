@@ -10,8 +10,7 @@
             video.playbackRate = 0.5; 
             video_player.volume = 0.2;
             
-            timer.start(20);
-            timer.mode(1);
+         
     }
    
 
@@ -329,6 +328,15 @@ $("#negative3L").click(function() { // button function for rewind
         timer.stop();
         }, 8000);
 });
+
+
+      function on0L(){
+            console.log("1 ended");
+            video_index = 0;
+            video_player.setAttribute("src", video_directory[video_index]);
+          
+        }
+          
             
        function on1L(){
             console.log("0 ended");
@@ -338,13 +346,7 @@ $("#negative3L").click(function() { // button function for rewind
                                 
       
         
-        function on0L(){
-            console.log("1 ended");
-            video_index = 0;
-            video_player.setAttribute("src", video_directory[video_index]);
-          
-        }
-           
+        
           function on2L(){
             console.log("2 ended");
             video_index = 2;
