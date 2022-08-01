@@ -8,10 +8,11 @@
             
             video_player.volume = 0.2;
             video_player.currentSrc();
-            video_player.currentTime();      
-           
-            timer.start(20);
-            
+            video_player.currentTime();
+               
+                      
+      timer.start(40);
+      timer.mode(1);
     }
        
        
