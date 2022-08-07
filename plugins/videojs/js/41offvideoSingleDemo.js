@@ -207,7 +207,8 @@
    }
 
   
-        var video_directory = ['https://www.dropbox.com/s/x4sqygujfaw0qyg/PG-07-30-2022.mp4?raw=1',                               
+        var video_directory = ['https://www.dropbox.com/s/x4sqygujfaw0qyg/PG-07-30-2022.mp4?raw=1',
+                               'https://www.dropbox.com/s/scpgpbywo92s4o6/08-07-2022.mp4?raw=1',                               
                                ];                      
  
   
@@ -331,7 +332,7 @@ $("#negative3L").click(function() { // button function for rewind
 
 
       function on0L(){
-            console.log("1 ended");
+            console.log("0 ended");
             video_index = 0;
             video_player.setAttribute("src", video_directory[video_index]);
           
@@ -339,7 +340,7 @@ $("#negative3L").click(function() { // button function for rewind
           
             
        function on1L(){
-            console.log("0 ended");
+            console.log("1 ended");
             video_index = 1;
             video_player.setAttribute("src", video_directory[video_index]);
         }
