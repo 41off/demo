@@ -447,7 +447,8 @@
    }
 
   
-        var video_directory = ['https://www.dropbox.com/s/x4sqygujfaw0qyg/PG-07-30-2022.mp4?raw=1',                               
+        var video_directory = ['https://www.dropbox.com/s/x4sqygujfaw0qyg/PG-07-30-2022.mp4?raw=1',
+                               'https://www.dropbox.com/s/scpgpbywo92s4o6/08-07-2022.mp4?raw=1',                                
                               ];                      
  
   
@@ -585,46 +586,16 @@ $("#negative3").click(function() { // button function for rewind
 */
             
        function on1L(){
-            console.log("0 ended");
+            console.log("1 ended");
             video_index = 1;
             video_player.setAttribute("src", video_directory[video_index]);
                                 
-        var btn = document.getElementById("modal");
-      
-            if (btn.value == "JM-52k-11m") {
-              btn.value = "JM-52k-11m";
-              btn.innerHTML = '<button id="modtext">JM-52k-11m</button>';              
-              multiResetB();
-              }
-            else {
-              btn.value = "JM-52k-11m";
-              btn.innerHTML = '<button id="modtext">JM-52k-11m&nbsp;&nbsp;&#129093;</button>';
-              timer.stop();
-              timerR.stop();
-              }
-          }
+        }
         
         function on0L(){
-            console.log("1 ended");
+            console.log("0 ended");
             video_index = 0;
             video_player.setAttribute("src", video_directory[video_index]);
-                     
-         var btn = document.getElementById("modal");
-              
-            if (btn.value == "FredWinter-58k-11m") {
-              btn.value = "FredWinter-58k-11m";
-              btn.innerHTML = '<button id="modtext">FredWinter-58k-11m</button>';             
-              timer.reset(0000);
-              
-       //       timer.start(10);
-              timer.mode(1);
-              }
-            else {
-              btn.value = "FredWinter-58k-11m";
-              btn.innerHTML =  '<button id="modtext">FredWinter-58k-11m&#129093;</button>';
-              timer.stop();
-              video_player.pause();              
-              }
         }
            
           function on2L(){
