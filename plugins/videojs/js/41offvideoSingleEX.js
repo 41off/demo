@@ -589,6 +589,7 @@ $("#negative3").click(function() { // button function for rewind
             console.log("1 ended");
             video_index = 1;
             video_player.setAttribute("src", video_directory[video_index]);
+            video.playbackRate = 0.25;
                                 
         }
         
