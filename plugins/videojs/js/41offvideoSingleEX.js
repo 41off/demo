@@ -332,7 +332,7 @@
       timer.start(10);
       timer.mode(1);      
       video_player.play();
-      video.playbackRate = 1.0;
+      video.playbackRate = 0.25;
      } 
        else {
             timer.stop();
