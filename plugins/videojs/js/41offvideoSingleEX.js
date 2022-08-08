@@ -329,10 +329,10 @@
               
      if(video_player.paused){
       
-      timer.start(10);
+      timer.start(33);
       timer.mode(1);      
       video_player.play();
-      video.playbackRate = 0.25;
+      video.playbackRate = 0.333;
      } 
        else {
             timer.stop();
