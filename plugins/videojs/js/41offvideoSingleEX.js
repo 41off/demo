@@ -359,7 +359,7 @@
              video_player.pause();
                 }
      if(video_player.paused){
-      timer.start(2);
+      timer.start(2.5);
       timer.mode(1);
       video_player.play();
       video.playbackRate = 4.0;
@@ -372,21 +372,21 @@
    
    function multiSupFwdL() {
     var btn = document.getElementById("L16x");
-        if (btn.value == "+16X") {
+        if (btn.value == "+1X") {
              btn.value = "Pause";
-             btn.innerHTML = "+16X";
+             btn.innerHTML = "+1X";
              video_player.play();
                 }
          else {
-             btn.value = "+16X";
+             btn.value = "+1X";
              btn.innerHTML = "Pause";
              video_player.pause();
                 }
      if(video_player.paused){
-      timer.start(0.125);
+      timer.start(10);
       timer.mode(1);
       video_player.play();
-      video.playbackRate = 16.0;
+      video.playbackRate = 1.0;
       } 
        else {
             timer.stop();
