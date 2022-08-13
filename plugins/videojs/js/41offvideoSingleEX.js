@@ -604,23 +604,6 @@ $("#negative3").click(function() { // button function for rewind
             console.log("2 ended");
             video_index = 2;
             video_player.setAttribute("src", video_directory[video_index]);
-            
-          var btn = document.getElementById("modal");
-      
-            if (btn.value == "V2.mp4") {
-              btn.value = "V2.mp4";
-              btn.innerHTML = '<button id="modtext">V2.mp4</button>';
-              timer.reset();
-              
-              timer.start(10);
-              timer.mode(1);
-              }
-            else {
-              btn.value = "V2.mp4";
-              btn.innerHTML = '<button id="modtext">Click Twice&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8665;</button>';
-              timer.stop();
-              video_player.pause();
-              }
         }
                       
           function on3L(){
@@ -628,22 +611,7 @@ $("#negative3").click(function() { // button function for rewind
             video_index = 3;
             video_player.setAttribute("src", video_directory[video_index]);
             
-           var btn = document.getElementById("modal");
       
-            if (btn.value == "V3.mp4") {
-              btn.value = "V3.mp4";
-              btn.innerHTML = '<button id="modtext">V3.mp4</button>';
-              timer.reset();
-              
-              timer.start(10);
-              timer.mode(1);
-              }
-            else {
-              btn.value = "V3.mp4";
-              btn.innerHTML = '<button id="modtext">Click Twice&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8665;</button>';              
-              timer.stop();
-              video_player.pause();
-              }
         }
         
           function on4L(){
