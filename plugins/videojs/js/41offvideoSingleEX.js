@@ -447,7 +447,8 @@
    }
 
   
-        var video_directory = ['https://www.dropbox.com/s/no4h1vvlfks9pn5/PG-09-23-2022b.mp4?raw=1',
+        var video_directory = ['https://www.dropbox.com/s/uyt0w4hcgkfoe07/PG-09-24-2022.mp4?raw=1',
+                               'https://www.dropbox.com/s/no4h1vvlfks9pn5/PG-09-23-2022b.mp4?raw=1',
                                'https://www.dropbox.com/s/a38us4ahbw61yj5/PG-09-15-2022-SSF-14-13.mp4?raw=1',
                                'https://www.dropbox.com/s/p25u740ofe98nby/PG-09-15-2022-Set2.mp4?raw=1',
                                'https://www.dropbox.com/s/7m05oypw9uczkfx/XPG-09-06-2022-Set1.mp4?raw=1',
