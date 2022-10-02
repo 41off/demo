@@ -8,16 +8,13 @@ body {
   
 }
 
-
 .custom-file-input::-webkit-file-upload-button {
   visibility: hidden;
   width:2px;
-  
-  
 }
 
 .custom-file-input::before {
-  content: 'Choose .mp4 video';
+  content: 'Choose .mp4/.webm video';
   display: inline-block;
   /* background: -webkit-linear-gradient(top, lightgray, black); */
   background: transparent;
@@ -32,7 +29,7 @@ body {
   font-weight: 700;
   font-size: 11pt;
   color:white;
-  width:54%;
+  width:73%;
   height:auto;
 }
 .custom-file-input:hover::before {
@@ -47,23 +44,16 @@ body {
 }
 
 
-
-
 .bar1 {
    position: absolute;
    display:inline;
    padding-top: 2px;
    padding-bottom:2px;
-   left:8%;
-   bottom: 3.5%;
+   left:10%;
+   bottom: 3%;
    height: auto;
-  
    max-height:34pt;
    width: auto;
-   
-   
- 
-   
    opacity: 1.0;
    transition: opacity 50s;
    background-color: transparent;
@@ -87,11 +77,7 @@ body {
     opacity: 1;
     transition: opacity 2s;
     cursor:move;
-    
-
 }
-
-
 
 .timer {
     position:absolute;
@@ -114,7 +100,6 @@ body {
     left:65%;   
     bottom:3.5%;
     z-index: 35;
-    
 }
 
 .timer:hover {

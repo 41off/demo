@@ -12,8 +12,8 @@
              var videoNode = document.querySelector('video')
              var canPlay = videoNode.canPlayType(type)
              if (canPlay === '') canPlay = 'No'
-             var message = '   Can play type "' +        type        + '": Yes ' 
-             var isError = canPlay === 'No: .mp4 video files only'
+             var message = '   Can play type "' + type + '": Yes ' 
+             var isError = canPlay === 'No: .mp4/.webm video files only'
     displayMessage(message, isError)
 
     if (isError) {
