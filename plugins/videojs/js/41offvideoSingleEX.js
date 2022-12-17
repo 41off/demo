@@ -448,18 +448,22 @@
 
   
         var video_directory = ['https://www.dropbox.com/s/5fw1i3vn3evlusm/WTXGX012144.webm?raw=1',
+        
                                'https://www.dropbox.com/s/nxuj60vpu090tuv/PG-10-25-2022-Set2.mp4?raw=1',
-                               'https://www.dropbox.com/s/lis2lyb2s961mwk/WTPG-10-14-2022.webm?raw=1',
+                               'https://www.dropbox.com/s/lis2lyb2s961mwk/WTPG-10-14-2022.webm?raw=1',                               
                                'https://www.dropbox.com/s/xn69t7lj32ph6it/XXXPG-09-23-2022b.webm?raw=1',
+                               
                                'https://www.dropbox.com/s/no4h1vvlfks9pn5/PG-09-23-2022b.mp4?raw=1',
-                               'https://www.dropbox.com/s/a38us4ahbw61yj5/PG-09-15-2022-SSF-14-13.mp4?raw=1',
+                               'https://www.dropbox.com/s/a38us4ahbw61yj5/PG-09-15-2022-SSF-14-13.mp4?raw=1',                               
                                'https://www.dropbox.com/s/p25u740ofe98nby/PG-09-15-2022-Set2.mp4?raw=1',
+                               
                                'https://www.dropbox.com/s/7m05oypw9uczkfx/XPG-09-06-2022-Set1.mp4?raw=1',
-                               'https://www.dropbox.com/s/x4sqygujfaw0qyg/PG-07-30-2022.mp4?raw=1',
+                               'https://www.dropbox.com/s/x4sqygujfaw0qyg/PG-07-30-2022.mp4?raw=1',                               
                                'https://www.dropbox.com/s/scpgpbywo92s4o6/08-07-2022.mp4?raw=1',
+                               
                                'https://www.dropbox.com/s/q90iobw0srxwk4m/08-12-2022.mp4?raw=1',
-                               'https://www.dropbox.com/s/n4ysbq3h89iwi17/08-13-2022.mp4?raw=1',
-                               'https://www.dropbox.com/s/j92exs7q6odfo6j/12-10-2022.mp4?raw=1',
+                               'https://www.dropbox.com/s/n4ysbq3h89iwi17/08-13-2022.mp4?raw=1',                               
+                               'https://www.dropbox.com/s/dtdon62ewz33ivx/12-10-2022-h265-8kb.mp4?raw=1',
                                
                               ];                      
  
