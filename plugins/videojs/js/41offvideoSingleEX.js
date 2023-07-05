@@ -469,6 +469,7 @@
                                
                                'https://www.dropbox.com/s/n15c7de6wttbyl8/01-03-2023.mp4?raw=1',
                                'https://www.dropbox.com/s/9x7capb3c48kq24/Pg-vs-DM-13m-52k-v10.mp4?raw=1',
+                               'https://www.dropbox.com/s/ak61l0mhvdpuz2m/07-04-2023.mp4?raw=1',
                                
                               ];                      
  
@@ -706,6 +707,20 @@ $("#negative3").click(function() { // button function for rewind
            video_index = 14;
            video_player.setAttribute("src", video_directory[video_index]);
        }
+       
+        function on15L(){
+           console.log("15 ended");
+           video_index = 15;
+           video_player.setAttribute("src", video_directory[video_index]);
+       }
+
+
+        function on16L(){
+           console.log("16 ended");
+           video_index = 16;
+           video_player.setAttribute("src", video_directory[video_index]);
+       }
+
 
 
         
