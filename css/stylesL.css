@@ -14,7 +14,7 @@ body {
 }
 
 .custom-file-input::before {
-  content: 'Choose .mp4/.webm video';
+  content: 'Choose .mp4/.webm/.mov video';
   display: table;
   /* background: -webkit-linear-gradient(top, lightgray, black); */
   background: transparent;
@@ -79,6 +79,109 @@ body {
     cursor:move;
 }
 
+.closebtn2 {
+    padding-right:0.1vmin;
+    padding-left:0.1vmin;
+    padding-top:0.2vmin;
+    color: red;
+    font-weight: bold;
+    float: left;
+    font-size: 2vmin;
+    line-height:2vmin;
+    cursor:progress;
+    transition: 2s;
+    text-shadow: 0.1vmin 0.1vmin black;
+}
+
+.closebtn2:hover {
+    color: yellow;
+}
+
+
+.convertor {
+    position:absolute;
+    display:inline-block;
+    padding-top: 0.1vmin;
+    padding-bottom:0.15vmin;
+    padding-left: 0.15vmin;
+    background: transparent;
+    border: 0.5vmin;
+    border-color: transparent;
+    border-radius: 1vmin;
+    border-style: double;
+    float: left;
+    right:30%; 
+    height: auto;   
+    max-height:3vmin;    
+    font-size: 1.75vmin;
+    line-height:2vmin;    
+    font-weight:600;    
+    color: white;
+    opacity: .6;
+    transition: opacity 3s;
+    bottom: 15.5%;
+    text-align:left;
+    z-index:55;   
+    width: 35%;
+}
+
+.convertor:hover {
+	background-color: #C0C0C0;
+	border-color: red;
+	opacity: 1;
+	color: black;
+	font-weight:600;
+}
+
+.entry {
+    display:inline-block;
+    transition: opacity 2s;
+    background: -webkit-linear-gradient(top, lightgray, black);
+    
+    font-size: 1.75vmin;
+    line-height:1.75vmin;       
+    font-weight:500; 
+    text-shadow: 0.1vmin 0.1vmin silver;
+    border: 0.5vmin double silver;
+    border-radius: 0.75vmin;
+    width: auto;
+    min-width:1.75vmin; 
+    height: 3vmin;
+    
+    text-align:center;
+    color: white;
+    
+    padding-left:0.15vmin;
+    padding-right:2px;
+    text-align: center;
+       
+    cursor: pointer;
+    z-index:11;
+}
+.entry:hover {
+    border: 0.5vmin double red;
+    background: -webkit-linear-gradient(top, lightyellow, lightpink);
+    color: black;
+    text-shadow: 0.05vmin 0.05vmin red;
+}
+
+.entry:focus {
+    
+    background: -webkit-linear-gradient(top, lightyellow, lightpink); 
+    color: black;
+    text-shadow: 0.1vmin 0.1vmin silver;
+  
+   
+   
+}
+
+.entry:active {
+    content: "input";
+    background: -webkit-linear-gradient(top, lightyellow, lightpink); 
+    color: darkred;
+}
+
+
 .timer {
     position:absolute;
     border:2px #666666 solid;
@@ -108,34 +211,69 @@ body {
     background-color: #555555; 
 }
 
+.timer3 {
+    display:inline-block;
+    transition: opacity 2s;
+    background: -webkit-linear-gradient(top, lightgray, black);
+    
+    font-size: 1.75vmin;
+    line-height:1.75vmin;       
+    font-weight:500; 
+    text-shadow: 0.1vmin 0.1vmin silver;
+    border: 0.5vmin double silver;
+    border-radius: 0.75vmin;
+    width: auto;
+    min-width:2vmin; 
+    height: auto;
+    min-height:1.75vmin;
+    text-align:center;
+    color: white;
+    
+    padding-left:0.25vmin;
+    padding-right:0.25vmin;
+    text-align: center;
+    margin: 0.1vmin 0.1vmin;
+    margin-bottom:0.1vmin;   
+    cursor: pointer;
+    z-index:11;
+}
+.timer3:hover {
+    border: 0.5vmin double red;
+    background: -webkit-linear-gradient(top, lightyellow, lightpink);
+    color: black;
+    text-shadow: 0.05vmin 0.05vmin red;
+}
 
-.timerR {
+.meter {
     position:absolute;
     border:2px #666666 solid;
     border-radius: 4px;
     background-color: black;
-    line-height:20px;
+    line-height:18px;
     font-size:18px;
     font-family:"Verdana";
     color:white;
     text-align:left;    
-    height: 24px;
+    height: 20px;
     width:auto;    
-    padding-top: 3px;
+    padding-top: 1px;
     padding-left: 5px;
     padding-right:3px;
     margin:auto;
     display: block;
-    min-width: 100px;
-    left:80%;   
-    bottom:30%;
+    min-width: 200px;
+    left:75%;   
+    bottom:16%;
+    z-index: 35;
 }
-.timer:hover {
+
+.meter:hover {
     border:2px red solid;
     border-radius: 4px;
     background-color: #555555; 
-    
 }
+
+
 
 
 
@@ -176,8 +314,8 @@ body {
     position: absolute;
     display:inline-block;
     padding-top: 2px;
-    left:28%;
-    bottom: 7%;
+    left:25%;
+    bottom: 11%;
     height: 28px;
     width:auto;
     min-width:36%;
@@ -377,6 +515,28 @@ body {
     background: -webkit-linear-gradient(top, lightgray, #008CBA);
     color: black;
 }
+
+#L1_Fr {
+    background-color: transparent;
+    font-weight: 600;
+    width: auto;
+    margin: 0px 0px;
+    color: white; 
+    border-color: transparent;
+    border-radius: 6px;
+    border-style:groove;
+    position:relative;
+    padding: 3px 3px;
+    padding-bottom:2px
+
+}
+
+#L1_Fr:hover {
+    border-color: white;
+    background: -webkit-linear-gradient(top, lightgray, #008CBA);
+    color: black;
+}
+
 
 #R1_8 {
     background-color: transparent;
@@ -1729,8 +1889,8 @@ body {
 
 .drag {
     background:transparent;
-    margin-right:3px;
-    margin-left:2px;
+    margin-right:2px;
+    margin-left:3px;
     color: red;
     font-weight: bold;
     font-size: 16px;
@@ -1742,6 +1902,22 @@ body {
 .drag:hover {
     color: yellow;
 }
+
+.drag2 {
+    padding-left:2px;
+    color: red;
+    font-weight: bold;
+    font-size: 2vmin;
+    cursor: move;
+    transition: 3s;
+    float:right;
+    text-shadow: 0.1vmin 0.1vmin black;
+}
+
+.drag2:hover {
+    color: lime;
+}
+
 
 
 .closebtn2 {
