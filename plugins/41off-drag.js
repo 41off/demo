@@ -35,6 +35,12 @@
    $( function() {
     $(".bar1").draggable();
 } );
+$( function() {
+    $(".meter").draggable();
+} );
+$( function() {
+    $(".convertor").draggable();
+} );
 
 
 /// dropdown drag option ///

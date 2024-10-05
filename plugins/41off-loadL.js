@@ -15,7 +15,7 @@
              var canPlay = videoNode.canPlayType(type)
              if (canPlay === '') canPlay = 'No'
              var message = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Can play type "'+ type +'": Yes '
-             var isError = canPlay === 'No: .mp4/.webm video files only'
+             var isError = canPlay === 'No: .mp4/.webm/.mov video files only'
                  
              
     displayMessage(message, isError)
