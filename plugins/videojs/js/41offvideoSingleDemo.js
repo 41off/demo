@@ -581,6 +581,21 @@ function timeStop() {
 }
 
 
+var video = document.getElementById('video'),
+    frameTime = 1 / 60; //assume 60 fps
+
+window.addEventListener('keypress', function (evt) {
+    if (video.paused) { //or you can force it to pause here
+        if (evt.keyCode === 37) { //left arrow
+            //one frame back
+            video.currentTime = Math.max(0, video.currentTime - frameTime);
+        } else if (evt.keyCode === 39) { //right arrow
+            //one frame forward
+            //Don't go past the end, otherwise you may get an error
+            video.currentTime = Math.min(video.duration, video.currentTime + frameTime);
+        }
+    }        
+});
 
 
 
