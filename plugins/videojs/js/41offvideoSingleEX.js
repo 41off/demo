@@ -346,7 +346,7 @@
  
   function multiResetL() {
     timer.reset(0000);
-    
+    timerR.reset(0000)
    }
    
    function meterReset() {
@@ -560,15 +560,15 @@ $("#negativeF").click(function() { // button function for rewind
    }
 
   
-        var video_directory = ['https://www.appsheet.com/template/gettablefileurl?appName=PGSkiApp-183211928&tableName=Settings&fileName=Settings_Files_%2F09-30-2024%2023-55-51.Media.040007.mp4',
+        var video_directory = ['https://www.appsheet.com/template/gettablefileurl?appName=PGSkiApp-183211928&tableName=Settings&fileName=Settings_Files_%2F10-07-2024%2017-32-55.Media.213632.mp4',
                   
                               
         
-                               'https://www.appsheet.com/template/gettablefileurl?appName=PGSkiApp-183211928&tableName=Settings&fileName=Settings_Files_%2F10-01-2024%2018-07-19.Media.213807.mp4',
+                               'https://www.dropbox.com/s/nxuj60vpu090tuv/PG-10-25-2022-Set2.mp4?raw=1',
                                'https://www.dropbox.com/s/lis2lyb2s961mwk/WTPG-10-14-2022.webm?raw=1',                               
-                               'https://drive.usercontent.google.com/download?id=1l2NJtXGf2_WLGEnaSwptdXj4rbuSzGxt&export=download&authuser=0/lunges.mp4',
+                               'https://www.dropbox.com/s/xn69t7lj32ph6it/XXXPG-09-23-2022b.webm?raw=1',
                                
-                               'https://drive.usercontent.google.com/download?id=1T5TsE8P_G61hnWN7PQ-Mij3UIs_Ig1Iv&authuser=0',
+                               'https://www.dropbox.com/s/no4h1vvlfks9pn5/PG-09-23-2022b.mp4?raw=1',
                                'https://www.dropbox.com/s/a38us4ahbw61yj5/PG-09-15-2022-SSF-14-13.mp4?raw=1',                               
                                'https://www.dropbox.com/s/p25u740ofe98nby/PG-09-15-2022-Set2.mp4?raw=1',
                                
@@ -873,76 +873,6 @@ $("#negative3").click(function() { // button function for rewind
               }
         }
         
-
-function countMet() {
-     // var btn = document.getElementsByClassName("timerR");
-    // var mets = document.meter.meters.value;
-      var mets = document.getElementsByClassName("meters").value;
-
-      
-   /*   var w = window.open('','','width=300,height=30')
-      
-      setTimeout(function() {w.close();}, 5000)
-    */   
-        if (mets.value == "41") {
-            /*w.document.write('Use this button before each click on rewind buttons ("-1/8X or -1X")');
-              w.focus();  */
-             mets.value = "41";
-             mets.innerHTML = "41";
-             timerR.stop(10);
-             
-                }
-         else {
-             mets.value = "41";
-             mets.innerHTML = "41";
-             timerR.stop();
-              }
-              
-     if(timerR.stop){
-      
-      timerR.stop(10);
-      timerR.mode(1);      
-     } 
-       else {
-            timerR.stop();
-     }
-}
-
-
-/* 
-setInterval(myTimer, 10720)
-
-
-
-
-function myTimer() {
-
- 
-
-  
-  timer.stop(10);
-
-
-}
-
-
-
-
-function nTimes() {
-      var meps = document.converter.mps.value;
-      var secs = Math.floor(41 / meps / 1) % 100;
-      var interval = setInterval(function(secs) {
-        if (interval > 2.68) {
-          timer.stop(10);
-          
-        } else {
-          clearInterval(interval);
-        }
-      }
-   
-*/
-  
-
 
 
 
