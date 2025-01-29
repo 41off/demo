@@ -26,7 +26,7 @@ h2 {
 }
 
 .custom-file-input::before {
-  content: 'Choose .mp4/.webm/.mov video';
+  content: 'Choose .mp4/.webm/.mov/ video';
   display: table;
   /* background: -webkit-linear-gradient(top, lightgray, black); */
   background: transparent;
@@ -112,10 +112,11 @@ h2 {
 
 .convertor {
     position:absolute;
-    display:inline-block;
+    display:inline;
     padding-top: 0.1vmin;
     padding-bottom:0.15vmin;
     padding-left: 0.15vmin;
+    padding-right: 0.15vmin;
     background: transparent;
     border: 0.5vmin;
     border-color: transparent;
@@ -132,9 +133,9 @@ h2 {
     opacity: .6;
     transition: opacity 3s;
     bottom: 15.5%;
-    text-align:left;
+    text-align:center;
     z-index:55;   
-    width: 35%;
+    width: 33%;
 }
 
 .convertor:hover {
@@ -414,12 +415,12 @@ h2 {
  position:absolute;
  width:auto;
  height:auto;
- line-height:18px;
- padding-top: 4px;
+ line-height:16px;
+ padding-top: 2px;
  background:transparent;
  float:left;
  left:0.2%;
- top:30%
+ top:5%
 }
  
 #kptext {
@@ -429,10 +430,35 @@ h2 {
  text-align:left;
  table-layout:auto;
  word-spacing: 3pt;
- font-weight: 700;
- font-size: 12pt;
+ font-weight: 600;
+ font-size: 10pt;
  border-radius: 4px;
 }
+
+#buoy {
+ position:absolute;
+ width:auto;
+ height:auto;
+ line-height:16px;
+ padding-top: 2px;
+ background:transparent;
+ float:left;
+ left:0.2%;
+ top:45%
+}
+ 
+#buoytext {
+ background: -webkit-linear-gradient(top, lightgray, black);
+ color:white;
+ text-shadow: 1px 1px black;
+ text-align:left;
+ table-layout:auto;
+ word-spacing: 3pt;
+ font-weight: 600;
+ font-size: 10pt;
+ border-radius: 4px;
+}
+
 
 
 

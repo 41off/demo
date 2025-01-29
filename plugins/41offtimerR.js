@@ -1,4 +1,4 @@
-﻿    function calc5(){
+﻿function calc5(){
 //variables convert kph to mps
 var kilometersperhour = document.converter.kph.value
 var calculated = Math.round(kilometersperhour * 1000/36)/100
@@ -102,7 +102,7 @@ function _timerR(callback)
         var cm = Math.floor(timeR * meps) % 100;
                 
     //    meters = (meters < 1000) ? 'Meters&nbsp'+meters : meters;
-        meters = (meters < 1000) ? 'Meters&nbsp'+meters : meters;
+        meters = (meters < 1000) ? +meters : meters;
         cm = (meters < 100) ? ''+cm : cm;
                 
         $('div.meter span.meters').html(meters);

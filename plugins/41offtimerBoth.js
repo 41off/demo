@@ -133,5 +133,36 @@ function timeStop() {
 }
 
 
+function countMet() {
+     // var btn = document.getElementsByClassName("timerR");
+      var mets = document.meter.meters.value;
+      
+   /*   var w = window.open('','','width=300,height=30')
+      
+      setTimeout(function() {w.close();}, 5000)
+    */   
+        if (mets.value == "0") {
+            /*w.document.write('Use this button before each click on rewind buttons ("-1/8X or -1X")');
+              w.focus();  */
+             mets.value = "0";
+             mets.innerHTML = "0";
+             timerR.start(10);
+             
+                }
+         else {
+             mets.value = "41";
+             mets.innerHTML = "41";
+             timerR.stop();
+              }
+              
+     if(timerR.stop){
+      
+      timerR.start(10);
+      timerR.mode(1);      
+     } 
+       else {
+            timerR.stop();
+     }
+}
 
 
