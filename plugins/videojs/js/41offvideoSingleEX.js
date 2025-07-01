@@ -563,6 +563,7 @@ $("#negativeF").click(function() { // button function for rewind
   
         var video_directory = ['https://www.appsheet.com/template/gettablefileurl?appName=PGSkiApp-183211928&tableName=Settings&fileName=Settings_Files_%2F10-07-2024%2017-32-55.Media.213632.mp4',
                                'https://www.appsheet.com/template/gettablefileurl?appName=PGSkiApp-183211928&tableName=Settings&fileName=Settings_Files_%2F09-30-2024%2023-55-51.Media.040007.mp4',
+                               'https://www.appsheet.com/template/gettablefileurl?appName=PGSkiApp-183211928&tableName=Settings&fileName=Settings_Files_%2F06-30-2025%2014-33-18.Media.010738.mp4',
                   
                               
         
