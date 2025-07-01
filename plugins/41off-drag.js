@@ -41,6 +41,13 @@ $( function() {
 $( function() {
     $(".convertor").draggable();
 } );
+$( function() {
+    $("#kp").draggable();
+} );
+$( function() {
+    $("#buoy").draggable();
+} );
+
 
 
 /// dropdown drag option ///
