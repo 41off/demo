@@ -65,7 +65,7 @@ window.addEventListener("load", function B() { onloadL() })
    <div id="stageL">
          
                <video id="video" controls muted loop 
-                     onclick="this.paused? ClickPauseL():ClickStartL(); this.paused? timer.start(10):timer.stop(0)" onended="onVideoEndedL();">
+                     onclick="this.paused? ClickPauseL():ClickStartL(); this.paused? timer.start(10):timer.stop(0)" onended="onVideoEndedL(); "controlsList="nodownload" oncontextmenu="return false;">
                     <source type="video/mp4">
                     <source type="video/mov">
                     <source type="video/ogg">
@@ -95,8 +95,11 @@ window.addEventListener("load", function B() { onloadL() })
                                        <div class="dropdownL-content">
                                         
                                         
+                                        
+                                        <a href="#" onclick="on0L()">PG-10-11-2025</a>
+
                                         <a href="#" onclick="on2L()">PG-06-30-2025</a>
-                                        <a href="#" onclick="on0L()">PG-10-07-2024</a>
+                                        <a href="#" onclick="on5L()">PG-10-07-2024</a>
                                         <a href="#" onclick="on1L()">PG-09-30-2024</a>                                        
                                         <!-- <a href="#" onclick="on1L()">PG-08-07-2022</a>
 					                    <a href="#" onclick="on2L()">PG-08-12-2022</a>
